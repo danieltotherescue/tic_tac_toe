@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <title>Welcome to tic-tac-toe</title>
+</head>
+<body onload="startGame();">
+
+
+  <h1>Tic Tac Toe</h1>
+  <h2>Show me what you got. I want to see what you got.<h2>
+  <h3>Click on one of the squares below to begin.</h3>
+
+  <!-- <div id="board-outer" class="center"> -->
+  <table >
+    <tr>
+      <td id="a1"  onclick="nextMove(this);"></td>
+      <td id="a2"  onclick="nextMove(this);"></td>
+      <td id="a3"  onclick="nextMove(this);"></td>
+    </tr>
+    <tr>
+      <td id="a4"  onclick="nextMove(this);"></td>
+      <td id="a5"  onclick="nextMove(this);"></td>
+      <td id="a6"  onclick="nextMove(this);"></td>
+    </tr>
+    <tr>
+      <td id="a7"  onclick="nextMove(this);"></td>
+      <td id="a8"  onclick="nextMove(this);"></td>
+      <td id="a9"  onclick="nextMove(this);"></td>
+    </tr>
+  </table>
+      <!-- </div> -->
+<div class="message" id="message">messages will go here</div>
+
+
+<br>
+<div class="center"><button class="center" id="restart" onclick="startGame()">Reset</button></div>
+
+  <script type="text/javascript" src="script.js"></script>
+  </style>
+</body>
+</html>
